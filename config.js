@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from 'fs'
+ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
@@ -6,8 +6,8 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 
-global.owner = [
-  ['917605902011', 'GURU', true],
+global.owner = [Siri
+  ['254745200552', 'siri', true],
   ['6281255369012', 'Ash', true], 
   [''] 
 ] //Number of owners
